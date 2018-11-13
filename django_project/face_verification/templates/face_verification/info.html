@@ -1,0 +1,24 @@
+{% extends "face_verification/base.html" %}
+{% block content %}
+	<div id="info_container">
+            <div id="text_info">
+                <p class="texto">Coloque su documento de identidad como indica la figura </p>
+                <p class="texto" style="color: crimson">{{msg}}</p>
+            </div>
+            <div id="pic_info">
+                <img src="/static/images/cardGif.gif" alt="">
+            </div>
+            <div id="btn_info">
+                <form class=form_info>
+                   <button id="prev" formaction="{% url 'face-verif-home' %}">
+                        Cancelar
+                    </button> 
+                </form>
+                <form class=form_info>
+                    <button id="next" formaction="{% url 'face-verif-camera' %}">
+                        Siguiente
+                    </button>
+                </form>
+            </div>
+    </div>
+{% endblock content %}

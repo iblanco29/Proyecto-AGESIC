@@ -1,0 +1,24 @@
+{% extends "face_verification/base.html" %}
+{% block content %}
+	<div id="failure_container">
+         <div id="pic_info">
+                <img src="/static/images/logo-accessdenied.png" alt="">
+            </div>
+        <div id="text_failure">
+            <p class="texto">Autenticación fallida porque {{msg}}, intente nuevamente</p>
+        </div>
+        
+        <div id="btn_failure">
+            <form class=form_info>
+                <button id="cancelar" formaction="{% url 'face-verif-home' %}">
+                    Cancelar
+                </button>
+            </form>
+            <form class=form_info>
+                <button id="reintentar" formaction="{% url 'face-verif-info' %}">
+                    Reintentar
+                </button>
+            </form >
+        </div>
+    </div>
+{% endblock content %}

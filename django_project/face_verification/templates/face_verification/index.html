@@ -1,0 +1,19 @@
+{% extends "face_verification/base.html" %}
+{% block content %}
+	<div id="home_container">
+        
+        <div id="pic_info_index">
+            <img src="/static/images/transparentLogoAutentID.png" alt="" id=logo_img>
+        </div>
+        <div id="text_init">
+            <p class="texto">Bienvenido al sistema de autenticación facial de la Universidad de Montevideo</p>
+        </div>
+        <div id="btn_init">
+            <form id=form_index>
+                <button id="init" formaction="{% url 'face-verif-info' %}">
+                    Presione para comenzar
+                </button>
+            </form>
+        </div>
+    </div>
+{% endblock content %}

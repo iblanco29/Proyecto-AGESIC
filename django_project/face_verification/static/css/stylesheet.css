@@ -1,0 +1,233 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    margin: 0%
+}
+#home_container{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: #003348
+}
+
+
+#face_img{
+    position: absolute;
+    left: 42%;
+    top:12%;
+    height: 33%;
+    width: 18%;
+    border-radius: 5%;
+}
+#form_index{
+    height: 100%;
+    width: 100%
+}
+.form_info{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+}
+#prev{
+    height: 100%;
+    width: 95%;
+    border-radius: 5px;
+}
+#run_btn{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+#text_init{
+    position: absolute;
+    width: 80%;
+    height: 7%;
+    left: 10%;
+    top: 51%;
+    text-align: center;
+    font-size: 140%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+#btn_init{
+    position: absolute;
+    width: 20%;
+    height: 12%;
+    left: 41%;
+    top: 75%;
+}
+#init{
+    height: 100%;
+    width: 100%;
+    font-size: 90%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+}
+#info_container{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: #003348
+}
+
+#text_info{
+    position: absolute;
+    width: 84%;
+    height: 7%;
+    left: 10%;
+    top: 2%;
+    text-align: center;
+    font-size: 140%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+#pic_info_index{
+    position: absolute;
+    left: 41%;
+    top:10%;
+    height: 35%;
+    width: 20%;
+    border-radius: 5%;
+}
+#logo_img{
+    position: absolute;
+    border-radius: 5%;
+    height: 100%;
+    width: 100%;
+    background: white
+}
+
+#pic_info{
+    position: absolute;
+    left: 37%;
+    top: 25%;
+    height: 50%;
+    width: 26%;
+    border-radius: 5%;
+    background: white
+}
+#camera_gif{
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    transform: rotate(180deg)
+}
+#pic_info > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+#btn_failure{
+    position: absolute;
+    left: 35%;
+    top:76%;
+    height: 11%;
+    width: 30%;
+}
+#btn_failure > button{
+    height: 100%;
+    width: 30%;
+}
+#btn_info{
+    position: absolute;
+    left: 35%;
+    top:80%;
+    height: 11%;
+    width: 30%;
+}
+#btn_info > button{
+    height: 100%;
+    width: 30%;
+}
+#reintentar{
+    float: right;
+    height: 100%;
+    width: 95%;
+    border-radius: 5px;
+}
+#cancelar{
+    height: 100%;
+    width: 95%;
+    border-radius: 5px;
+}
+#next{
+    float: right;
+    height: 100%;
+    width: 95%;
+    border-radius: 5px;
+}
+#camera_container{
+    position: absolute;
+    background: #003348;
+    height: 100%;
+    width: 100%;
+}
+#camera{
+    position: absolute;
+    top: 33%;
+    left: 35%;
+}
+#text_camera{
+    position: absolute;
+    width: 80%;
+    height: 7%;
+    left: 10%;
+    top: 2%;
+    text-align: center;
+    font-size: 140%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#success_container{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: rgb(29, 131, 29);
+}
+
+#text_success{
+    position: absolute;
+    width: 84%;
+    height: 7%;
+    left: 10%;
+    top: 50%;
+    text-align: center;
+    font-size: 140%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#text_success_thanks{
+    position: absolute;
+    width: 84%;
+    height: 7%;
+    left: 10%;
+    top: 80%;
+    text-align: center;
+    font-size: 90%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#failure_container{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: rgb(139, 29, 29);
+}
+#text_failure{
+   position: absolute;
+    width: 84%;
+    height: 7%;
+    left: 10%;
+    top: 2%;
+    text-align: center;
+    font-size: 140%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}

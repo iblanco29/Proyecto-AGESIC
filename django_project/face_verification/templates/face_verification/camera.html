@@ -1,0 +1,17 @@
+{% extends "face_verification/base.html" %}
+{% block content %}
+    <div id="camera_container">
+        <div id="text_camera">
+            <p class="texto">Coloquese en frente a la cámara</p>
+        </div>
+        <div id="pic_info">
+              <img src="/static/images/scroll-down.gif" id="camera_gif" alt="">
+        </div>
+        <div id="btn_info">
+            <form method="post">
+                    {% csrf_token %}
+                    <button id=run_btn type="submit" formaction="{% url 'face-verification' %}"> Realizar verificación </button>
+            </form>
+        </div>
+    </div>
+{% endblock content %}

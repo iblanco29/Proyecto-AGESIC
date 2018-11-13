@@ -1,0 +1,22 @@
+{% extends "face_verification/base.html" %}
+{% block content %}
+	<div id="success_container">
+        <img src="/static/images/X.jpeg" alt="" id="face_img">
+        <div id="text_success">
+            <p class="texto">
+            {% for person in persons %}
+                <p class="texto">¡Bienvenido {{person.name}} {{person.surname}} ! Ya puede retirar su documento de identidad</p>
+            {% endfor %}
+
+            </p>
+        </div>
+        <div id="text_success_thanks">
+            <form>
+                <button id="home" formaction="{% url 'face-verif-home' %}">
+                    Ir a página principal
+                </button>
+            </form>
+            <p class="texto">Gracias por utilizar AutentID</p>
+        </div>
+    </div>
+{% endblock content %}
